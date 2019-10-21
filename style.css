@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: sans-serif;
+    color: black;
+}
+.container {
+    border: 1px linear;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 7px;
+    width: 100%;
+}
+.navbar {
+    text-align: center;
+}
+.sidebar {
+    border: ;
+    padding: 5px;
+    margin: 5px;
+}
+.main {
+    border: ;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    background-color;
+}
+.card {
+    padding: 10px;
+    display: inline-block;
+}
+#fiveday {
+    float: left;
+}
+#fivedaycard {
+    float: left;
+    background-color: rgb(20, 63, 255);
+    width: 7rem;
+    margin: 5px;
+}
+
+@media screen and (max-width: 960px) {
+/* The body's bg color will be #333 */
+body {
+  background-color:rgb(202, 245, 202);
+}
+
+.container, .main, .row{
+  max-width: 100%;
+  float: left;
+}
+
+}
